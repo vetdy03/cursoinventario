@@ -36,9 +36,9 @@ class ControllerSistema extends Controller
     //modulo categotria
     public function categoria(){
 
-        $categoria= DB::table('categorias')->where('ca_estado', '!=', 'ELIMINADO')->get();
+        //$categoria= DB::table('categorias')->where('ca_estado', '!=', 'ELIMINADO')->get();
         //dd($categoria); die;
-        return view('categoria.categoria_index');
+        return view('categoria.categoria_index');// en laravel el punto se usa para directorios entrar
         //ingresara a catergoria y para la siguiente carpeta se ausa .
     }
 
@@ -62,7 +62,7 @@ class ControllerSistema extends Controller
 
     //modulo producto
     public function producto(){
-        return view('producto.producto_index');
+        return view('producto.producto_index');//redireccionara a la carpeta producto que creamos
         //redireccionar a la carpeta  VIEW, tenemos una carpeta con el nombre producto y dentro tenemos 
         //un archivo llamado producto_index, en el caso de no tener ese archivo lo creamos 
     }

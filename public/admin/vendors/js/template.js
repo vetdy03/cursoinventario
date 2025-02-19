@@ -3,7 +3,7 @@
 */
   // Active ajax page loader
   $.ajaxLoad = false;
-
+//osddyyyds
   //required when $.ajaxLoad = true
   //$.defaultPage = 'main.html';
   //$.subPagesDirectory = 'views/';

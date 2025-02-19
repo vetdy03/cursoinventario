@@ -7,7 +7,7 @@
     <div class="card">
         <div class="card-header">
 
-            <h2>Listado de Productos</h2><br/>
+            <h3>Listado de Productos</h3><br/>
             
             <button class="btn btn-primary btn-lg" type="button" data-toggle="modal" data-target="#abrirmodal">
                 <i class="fa fa-plus fa-2x"></i>&nbsp;&nbsp;Agregar Productos
@@ -17,7 +17,7 @@
             <div class="form-group row">
                 
             </div>
-            <table class="table table-bordered table-striped table-sm">
+            <table class="table table-bordered table-striped table-sm ">
                 <thead>
                     <tr class="bg-primary">
                         

@@ -18,7 +18,8 @@ Route::get('/', function () {
 });
 
 Route:: get('/ejemplo1', [ControllerSistema::class,'ejemplo1']);
-Route:: get('/ejemplo1', [ControllerSistema::class,'ejemplo2']);
+// el primer ejemplo1 es un la ruta en el controller el segundo emeplo 1 es el nombre del metodo
+Route:: get('/ejemplo11', [ControllerSistema::class,'ejemplo2']);
 
 Route:: get('/categoria', [ControllerSistema::class,'categoria']);
 Route:: post('/guardarNuevoCategoria', [ControllerSistema::class,'guardarNuevoCategoria']);

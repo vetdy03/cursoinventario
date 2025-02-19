@@ -9,7 +9,7 @@
     <meta name="keyword" content="Sistema Compras-Ventas con Laravel y Vue Js">
     <title>Proyecto</title>
     <!-- Icons -->
-    <link href=" <?php echo asset('admin') ?>/ vendors/css/font-awesome.min.css" rel="stylesheet">
+    <link href=" <?php echo asset('admin')?>/vendors/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php echo asset('admin')?>/vendors/css/simple-line-icons.min.css" rel="stylesheet">
     <!-- Main styles for this application -->
     <link href="<?php echo asset('admin')?>/vendors/css/style.css" rel="stylesheet">
@@ -78,7 +78,7 @@
                     </li>
                     
                     <li class="nav-item">
-                        <a class="nav-link" href="/producto"><i class="fa fa-tasks"></i> Productos</a>
+                        <a class="nav-link" href="/producto"> <i class="fa fa-tasks"></i> Productos</a>
                     </li>
                       
             
