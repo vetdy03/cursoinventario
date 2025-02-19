@@ -91,7 +91,7 @@
                 
 
             <form id="guardarNuevoCategoria" method="post" enctype="multipart/form-data" class="form-horizontal">
-                @csrf
+                @csrf <!--PARA GENERAR UN TOKEN UNICO POR -->
                 <div class="form-group row">
                     <label class="col-md-4 form-control-label" for="text-input">Categoría</label>
                     <div class="col-md-9">
