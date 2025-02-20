@@ -52,7 +52,7 @@ class ControllerSistema extends Controller
 
     }
 
-    //fin modulo categotria
+    //fin modulo categotria si este es el fin
 
 
 
